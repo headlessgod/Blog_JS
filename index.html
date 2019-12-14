@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <h1>Hello</h1>
+
+    <form action="">
+
+        <fieldset class="post">
+            <legend>Create post</legend>
+
+            <input class="post__text" id="title" placeholder="Title">
+            <input class="post__text" id="seo-url" placeholder="Seo url">
+            <input class="post__text" id="short-description" placeholder="Short">
+
+            <textarea class="post__text" id="full-description" placeholder="Full description"></textarea>
+
+            <label>
+                <input class="post__text" type="checkbox" id="status">
+            </label>
+            <button id="send-post">Create</button>
+        </fieldset>
+    </form>
+
+    <table id="posts-list">
+
+    </table>
+
+    <script defer src="/JavaScript/main.js"></script>
+</body>
+
+</html>

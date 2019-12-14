@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+
+.post {
+    max-width: 300px;
+    margin: auto;
+}
+
+.post__text{
+    width: 100%;
+    margin-bottom: 15px;
+}
